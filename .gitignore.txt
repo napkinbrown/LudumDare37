@@ -1,0 +1,2 @@
+LudumDare37/Library/metadata/*
+LudumDare37/Library/ShaderCache/*

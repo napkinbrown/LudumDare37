@@ -5,9 +5,37 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_lamp</sprite>
+    <sprite>sprites\sp_smokeAlarm</sprite>
+    <sprite>sprites\sp_alarmClock</sprite>
+    <sprite>sprites\sp_cursor</sprite>
+    <sprite>sprites\sp_hammer</sprite>
+    <sprite>sprites\sp_windowShades</sprite>
+    <sprite>sprites\sp_guy1</sprite>
+    <sprite>sprites\sp_guy2</sprite>
+    <sprite>sprites\sp_guy3</sprite>
+    <sprite>sprites\sp_lampON</sprite>
+    <sprite>sprites\sp_lampBroken</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_main</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <object>objects\obj_lamp</object>
+    <object>objects\obj_guy</object>
+    <object>objects\obj_smokeAlarm</object>
+    <object>objects\obj_alarmClock</object>
+    <object>objects\obj_cursor</object>
+    <object>objects\obj_hammer</object>
+    <object>objects\obj_windowShades</object>
+    <object>objects\obj_Parent</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
